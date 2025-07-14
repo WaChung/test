@@ -22,7 +22,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.core.OverridingClassLoader;
 
-import com.aia.cache.EnableMsaMemCache;
 import com.example.annotation.SingletonVariable;
 import com.example.demo.mbean.BasicThread;
 
@@ -31,7 +30,6 @@ import de.codecentric.boot.admin.server.config.EnableAdminServer;
 
 @SpringBootApplication
 @ComponentScan("com.*")
-@EnableMsaMemCache
 @EnableAdminServer
 public class App {
 	@SingletonVariable
