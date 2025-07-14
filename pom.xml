@@ -14,9 +14,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
-	<!-- <properties> <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
-		<java.version>1.8</java.version> <maven.compiler.source>1.8</maven.compiler.source> 
-		<maven.compiler.target>1.8</maven.compiler.target> </properties> -->
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path -->
 		<dependency>
@@ -70,9 +67,6 @@
     <artifactId>spring-boot-admin-starter-client</artifactId>
     <version>3.1.5</version>
 </dependency>
-		<!-- Add this dependency for publishing Actuator metrics to Dynatrace -->
-		<!-- <dependency> <groupId>io.micrometer</groupId> <artifactId>micrometer-registry-dynatrace</artifactId> 
-			</dependency> -->
 	</dependencies>
 
 	<build>
@@ -107,9 +101,4 @@
 			</snapshots>
 		</repository>
 	</repositories>
-	<!-- <pluginRepositories> <pluginRepository> <id>spring-milestones</id> 
-		<name>Spring Milestones</name> <url>https://repo.spring.io/milestone</url> 
-		</pluginRepository> <pluginRepository> <id>spring-snapshots</id> <name>Spring 
-		Snapshots</name> <url>https://repo.spring.io/snapshot</url> <snapshots> <enabled>true</enabled> 
-		</snapshots> </pluginRepository> </pluginRepositories> -->
 </project>
