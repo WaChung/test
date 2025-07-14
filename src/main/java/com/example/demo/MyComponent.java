@@ -13,7 +13,6 @@ public class MyComponent {
 	@Autowired
     private Person myService; // This should trigger the rule
 	
-	@Autowired
     private Person myService2; // This should trigger the rule
     
 	@SingletonVariable
