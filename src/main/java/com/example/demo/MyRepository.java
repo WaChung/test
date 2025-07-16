@@ -1,14 +1,13 @@
 package com.example.demo;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import com.aia.oae.framework.annotation.SingletonVariable;
 import com.example.demo.bean.Person;
 
-@Component
-public class MyComponent {
+@Repository
+public class MyRepository {
 	@Autowired
     private Person myService; // Allow
 	
