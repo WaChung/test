@@ -4,7 +4,7 @@ package com.example.demo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.aia.oae.SingletonVariable;
+import com.aia.oae.framework.annotation.SingletonVariable;
 import com.example.demo.bean.Person;
 
 @Component
@@ -14,6 +14,10 @@ public class MyComponent {
     private Person myService; // This should trigger the rule
 	
     private Person myService2; // This should trigger the rule
+
+    private Person myService4; // This should trigger the rule
+	
+    private Person myService3; // This should trigger the rule
     
 	@SingletonVariable
 	private String test2;
@@ -21,7 +25,7 @@ public class MyComponent {
     private String test;
 
     private int test3;
-
+    
 	@SingletonVariable	
     private int test4;
     
