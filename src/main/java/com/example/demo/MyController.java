@@ -15,14 +15,14 @@ public class MyController {
     private Person myService2; //Not Allow
     
 	@SingletonVariable //Allow
-	private String test2; 
+	private String st1; 
 	
-    private String test; // not Allow
+    private String st2; // not Allow
 
     @SingletonVariable	//allow
-    private int test4; 
+    private int i1; 
 
-    private int test3;// not Allow
+    private int i2;// not Allow
     
     public static final String AAA = "AAA";//Allow
     
