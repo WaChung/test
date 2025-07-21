@@ -1,4 +1,4 @@
-package com.aia.oae.framework.core.annotation;
+package com.aia.oae.framework.core.infrastructure.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

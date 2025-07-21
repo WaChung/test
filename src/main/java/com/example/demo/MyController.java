@@ -3,7 +3,7 @@ package com.example.demo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
-import com.aia.oae.framework.core.annotation.SingletonVariable;
+import com.aia.oae.framework.core.infrastructure.annotations.SingletonVariable;
 import com.example.demo.bean.Person;
 
 @Controller
