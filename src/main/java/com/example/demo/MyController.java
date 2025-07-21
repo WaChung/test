@@ -30,7 +30,4 @@ public class MyController {
     
     private static final String BBB = "BBB";//Allow
      
-    public void doSomething() {
-        
-    }
 }

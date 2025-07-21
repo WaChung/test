@@ -30,7 +30,4 @@ public class MyComponent {
     
     private static final String BBB = "BBB";//Allow
      
-    public void doSomething() {
-        
-    }
 }
