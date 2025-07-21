@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import com.aia.oae.framework.annotation.SingletonVariable;
+import com.aia.oae.framework.core.annotation.SingletonVariable;
 import com.example.demo.bean.Person;
 
 @Component
