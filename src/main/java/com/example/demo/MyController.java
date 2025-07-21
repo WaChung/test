@@ -7,19 +7,18 @@ import org.springframework.stereotype.Controller;
 import com.aia.oae.framework.annotation.SingletonVariable;
 import com.example.demo.bean.Person;
 
-@Scope
 @Controller
 public class MyController {
 	
 	@Autowired
-    private Person myService; // Allow
+    private Person myService3; // Allow
 	
-    private Person myService2; //Not Allow
+    private Person myService4; //Not Allow
     
 	@SingletonVariable //Allow
-	private String st1; 
+	private String st3; 
 	
-    private String st2; // not Allow
+    private String st5; // not Allow
 
     @SingletonVariable	//allow
     private int i1; 
